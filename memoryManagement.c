@@ -5,11 +5,11 @@
  * @freeMe: ...
  */
 
-void freeCharPointer(char **frMe)
+void freeCharPointer(char **freeMe)
 {
-	if (*frMe != NULL)
-		free(*frMe);
-	*frMe = NULL;
+	if (*freeMe != NULL)
+		free(*freeMe);
+	*freeMe = NULL;
 }
 
 /**
